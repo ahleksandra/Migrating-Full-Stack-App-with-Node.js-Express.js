@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Fix vertical alignment of verified checkbox in Accounts form */
+#accountForm .form-check {
+    display: flex;
+    align-items: center; /* vertically center input and label */
+    gap: 0.5rem; /* space between checkbox and label */
+}
+
+/* checkmark align */
+#accountTable th.text-center,
+#accountTable td.text-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#accountTable td.text-center {
+    font-size: 1.2rem; /* bigger icon */
+}
+
+#accountTable tbody tr {
+    height: 50px; /* uniform row height */
+}
+
